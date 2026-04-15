@@ -1,0 +1,13 @@
+# Fichiers d'environnement (Sécurité)
+.env
+PSC.BACKEND/.env
+frontend/.env
+
+# Dossiers de dépendances (Pour ne pas alourdir GitHub)
+node_modules/
+PSC.BACKEND/node_modules/
+frontend/node_modules/
+
+# Logs et build Expo
+npm-debug.log*
+frontend/.expo/

@@ -1,7 +1,7 @@
 import * as SecureStore from 'expo-secure-store';
 
 
-const API_URL = 'http://192.168.1.9:3001/api'; 
+const API_URL = 'https://api-obemorphose.onrender.com/api'; 
 
 const customFetch = async (endpoint, options = {}) => {
   const url = `${API_URL}${endpoint}`;

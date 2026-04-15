@@ -10,7 +10,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { AuthContext } from '../context/AuthContext';
 import { chatAPI } from '../services/api';
 
-const SOCKET_URL = 'http://192.168.1.9:3001'; // ⚠️ Vérifie ton IP locale
+const SOCKET_URL = 'https://api-obemorphose.onrender.com'; // ⚠️ Vérifie ton IP locale
 
 export default function ChatRoomScreen({ route, navigation }) {
   const { contactId, contactName } = route.params;

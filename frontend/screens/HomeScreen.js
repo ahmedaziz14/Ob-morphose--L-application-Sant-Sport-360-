@@ -11,7 +11,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { io } from 'socket.io-client';
 
 // ✅ URL unifiée pour éviter les bugs
-const SOCKET_URL = 'http://192.168.1.9:3001';
+const SOCKET_URL = 'https://api-obemorphose.onrender.com';
 
 export default function HomeScreen({ navigation }) {
   const { user, logout } = useContext(AuthContext);
